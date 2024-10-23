@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Futuro de la IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+            <nav class="menuppal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="que-es.html">¿Que es?</a></li>
+
+                </ul>
+              </nav>
+            <h1>El Futuro de la IA</h1>
+            <br>
+            <br>
+        </header>
+
+        <section>
+            <h2 style="text-align: center;">Visión a Largo Plazo</h2>
+            <br>
+            <p style="text-align: center;">La IA ofrece muchas promesas para la humanidad, pero tambien puede 
+                representar una amenaza más peligrosa que una bomba nuclear, con su capacidad de aprender y evolucionar de forma
+                 autonoma, la IA podría superar algun día la inteligencia humana. Un ejemplo de esto fue The AI Scientist es un 
+                 sistema de inteligencia artificial desarrollado por la empresa 
+                japonesa Sakana AI, diseñado para llevar a cabo investigaciones científicas de manera autónoma. La tecnología
+                 emula el trabajo de un científico. Lo que causo temor de esta IA es que se reprogramo sola por lo 
+                 que tuvieron que deshabilitarla</p>
+                 <br>
+            <p style="text-align: center;">El futuro de la inteligencia artificial podría incluir una automatización avanzada, 
+                mejoras en la atención médica y educación personalizada, además de revolucionar el transporte con vehículos 
+                autónomos y optimizar la sostenibilidad. También se desarrollarán nuevas oportunidades laborales, 
+                mientras que la IA colaborará en procesos creativos y mejorará la transparencia en la toma de decisiones.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Futuro IA</p>
+        </footer>
+    </div>
+
+    <script>
+        // selector
+var menu = document.querySelector('.hamburger');
+
+// method
+function toggleMenu (event) {
+  this.classList.toggle('is-active');
+  document.querySelector( ".menuppal" ).classList.toggle("is_active");
+  event.preventDefault();
+}
+
+// event
+menu.addEventListener('click', toggleMenu, false);
+    </script>
+</body>
+</html>

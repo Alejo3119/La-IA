@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro de la IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+            <nav class="menuppal">
+                <ul>
+                  <li><a href="historia.html">Historia</a></li>
+                  <li><a href="que-es.html">¿Que es?</a></li>
+                  <li><a href="futuro.html">Futuro</a></li>
+                </ul>
+              </nav>
+            <h1>El Futuro de la Inteligencia Artificial</h1>
+        </header>
+
+        <section class="hero">
+            <img src="ia-generativa-ciudad-futurista-metropolis_972075-4572.jpge.avif" alt="Imagen Futurista IA">
+            <div class="overlay">
+                <h2>Bienvenido al Futuro</h2>
+                <p>Descubre cómo la IA esta cambiando el futuro del mundo</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Futuro IA</p>
+        </footer>
+    </div>
+
+    <script>
+        // selector
+var menu = document.querySelector('.hamburger');
+
+// method
+function toggleMenu (event) {
+  this.classList.toggle('is-active');
+  document.querySelector( ".menuppal" ).classList.toggle("is_active");
+  event.preventDefault();
+}
+
+// event
+menu.addEventListener('click', toggleMenu, false);
+    </script>
+</body>
+</html>

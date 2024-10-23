@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Historia de la IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+            <nav class="menuppal">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="que-es.html">¿Que es?</a></li>
+                  <li><a href="futuro.html">Futuro</a></li>
+
+                </ul>
+              </nav>>
+            <h1> Historia de la IA </h1>
+            <br>
+            <br>
+        </header>
+
+        <section>
+            <h2 style="text-align: center;">Un Viaje en el Tiempo</h2>
+            <br>
+            <p style="text-align: center;"> Todo comenzó en 1943 con la publicación de un articulo titulado «A Logical Calculus of Ideas 
+                Immanent in Nervous Activity» por Warren Mccullough y Walter Pitts. En este trabajo los cientifico presentaron el primer modelo
+                matematico para la creacion de una red neuronal.</p>
+                <br>
+            <p style="text-align: center;">El primer ordenador de red neuronal, Snarc, fue creado en 1950 por dos alumnos de hardvard: Marvin Minsky y Dean Edmonds. Ese mismo año, Alan Turing, publicó el test de Turing, que todavia se utiliza hoy para valorar las IA. </p>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Futuro IA</p>
+        </footer>
+    </div>
+
+    <script>
+        // selector
+var menu = document.querySelector('.hamburger');
+
+// method
+function toggleMenu (event) {
+  this.classList.toggle('is-active');
+  document.querySelector( ".menuppal" ).classList.toggle("is_active");
+  event.preventDefault();
+}
+
+// event
+menu.addEventListener('click', toggleMenu, false);
+    </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicaciones de la IA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+            <nav class="menuppal">
+                <ul>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="historia.html">Historia</a></li>
+                  <li><a href="futuro.html">Futuro</a></li>
+                </ul>
+              </nav>
+            <h1>La IA</h1>
+            <br>
+            <br>
+        </header>
+
+        <section>
+            <h2 style="text-align: center;">¿Que es la IA y como funciona?</h2>
+            <BR>
+            <p style="text-align: center;">
+                La IA es un campo de la informática que se enfoca en crear sistemas que puedan realizar tareas que normalmente requieren
+                inteligencia humana, como el aprendizaje, el razonamiento y la percepción.
+            </p>
+            <br>
+            <p style="text-align: center;"> Hablar de IA es algo tan sencillo como hablar de máquinas 
+                inteligentes. Es decir, máquinas programadas para llevar a cabo determinadas tareas de forma automática 
+                sin necesidad de que los seres humanos supervisen su trabajo</p>
+                <br>
+            <p style="text-align: center;">Los sistemas de IA aprenden y mejoran a través de la exposición a grandes cantidades de 
+                datos, lo que permite identificar patrones y relaciones que las personas pueden pasar por alto.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Futuro IA</p>
+        </footer>
+    </div>
+    <script>
+        // selector
+var menu = document.querySelector('.hamburger');
+
+// method
+function toggleMenu (event) {
+  this.classList.toggle('is-active');
+  document.querySelector( ".menuppal" ).classList.toggle("is_active");
+  event.preventDefault();
+}
+
+// event
+menu.addEventListener('click', toggleMenu, false);
+    </script>
+</body>
+</html>
